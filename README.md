@@ -30,7 +30,7 @@ Siga estes passos para configurar e rodar o projeto:
 Clone o Repositório:
 Se você estiver usando Git, clone este repositório para o seu computador:
 
-    git clone <URL_DO_SEU_REPOSITORIO>
+    git clone <https://github.com/Chefeiro/linkedin-automation-connection.git>
     cd <nome-da-pasta-do-seu-repositorio>
 
 Instale as Dependências:
@@ -81,7 +81,7 @@ Velocidade da Internet e Timeouts: Ajuste os cy.wait() e os timeout nos cy.get()
 
 Uso Responsável: Use qualquer automação com responsabilidade e esteja ciente dos termos de serviço das plataformas que você está automatizando.
 
- ### 🪐Jonas Silva🪐
+ # 🪐Jonas Silva🪐
 
 > QA Enginner | Cypress Automation
 
