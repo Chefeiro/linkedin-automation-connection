@@ -101,16 +101,19 @@ async function runLinkedInAutomation() {
                 },
                 headed: true, 
                 browser: 'chrome',
-                autoCancelAfterFailures: 1
             });
-            if (failed.status === "failed")
+            if (failed.status === "failed" || failed.totalFailed > 0){
+            console.clear()
+            console.log(`❌ Erro detectado na Página ${page}. Interrompendo a automação. ❌ `)
               break;
+            }
+            console.clear()
             console.log(`Página ${page} processada com sucesso.`);
         } catch (error) {
             console.error(`Erro ao processar Página ${page}:`, error.message);
         }
     }
-    console.clear()
+    
     console.log('\n--- Automação de conexões do LinkedIn concluída! ---');
     rl.close();
 }
