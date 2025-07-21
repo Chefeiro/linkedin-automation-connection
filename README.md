@@ -4,7 +4,7 @@
 Este projeto oferece uma solução robusta e otimizada para automatizar o envio de pedidos de conexão no LinkedIn, buscando perfis com base em termos específicos. Ele foi desenvolvido com Cypress para interações no navegador e Node.js para orquestrar o processo, garantindo eficiência e evitando problemas de memória em automações de longa duração.
 
 
-img src="LI-Logo.png" alt="Linkedin">
+<img src="LI-Logo.png" alt="Linkedin">
 
 ## 🚀 Visão Geral do Projeto 🚀 
 
